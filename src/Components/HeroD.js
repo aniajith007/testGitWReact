@@ -1,17 +1,19 @@
 import React from 'react'
-
+import Imgg from '../Components/1672861621469.jpg'
+import Footer from './Footer'
+import PicCard from './PicCard'
 function HeroD() {
-  return (
-    <div className="hero min-h-screen bg-base-200">
-  <div className="hero-content flex-col lg:flex-row">
-    <img src="https://placeimg.com/260/400/arch" className="max-w-sm rounded-lg shadow-2xl" />
-    <div>
-      <h1 className="text-5xl font-bold">Box Office News!</h1>
-      <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-      <button className="btn btn-primary">Get Started</button>
-    </div>
-  </div>
-</div>
+  return (    
+    
+    <div className="container min-h-screen flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-[32rem] lg:py-16 lg:flex-row lg:items-center" id = "Hero">
+      <PicCard/>
+        <div className="w-full lg:w-1/2">
+            <div className="lg:max-w-lg">
+            <h1 className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black">Hello there!!</h1>
+            </div>
+        </div>    
+    </div>    
+    
   )
 }
 
