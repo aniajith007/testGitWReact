@@ -4,7 +4,6 @@ import Footer from './Footer'
 import PicCard from './PicCard'
 function HeroD() {
   return (    
-    
     <div className="container min-h-screen flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-[32rem] lg:py-16 lg:flex-row lg:items-center" id = "Hero">
       <PicCard/>
         <div className="w-full lg:w-1/2">
